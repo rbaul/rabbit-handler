@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: rabbit-handler
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+  output:
+    ansi:
+      enabled: always
+
+logging:
+  level:
+    ROOT: info
